@@ -1,0 +1,11 @@
+score = input("叫块Θ罿:")
+if(int(score) >=90):
+	print("纔单")
+elif(int(score) >=80):
+	print("ヒ单")
+elif(int(score) >=70):
+	print("单")
+elif(int(score) >=60):
+	print("单")
+else:
+	print("单")

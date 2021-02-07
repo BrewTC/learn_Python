@@ -1,0 +1,14 @@
+#for   執行固定次數的迴圈
+#while 執行次數不固定的迴圈
+
+list1 = [1, 2, 3, 4, 5,] #元素皆為整數
+list2 = ["香蕉", "蘋果", "橘子"] #元素皆為字串
+list3 = [1, "香蕉", True] #包含不同資料型態元素
+print(list2[1]) #蘋果
+print(list2[3]) #錯誤，索引值超過範圍
+
+#二維串列
+
+list5 = [["joe","1234"], ["mary,abcd"], ["david", ,"5678"]]
+print(list5[1])  #["mary,abcd"]
+print(list5[1][1])  #abcd
