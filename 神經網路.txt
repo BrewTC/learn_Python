@@ -1,0 +1,24 @@
+機器不學習 www.jqbxx.com : 深度聚合機器學習、深度學習算法及技術實戰
+
+卷積網絡層的類型：
+
+    卷積層（Convolution），Conv；
+    池化層（Pooling），Pool；
+    全連接層（Fully connected）：Fc；
+
+池化 Summary：
+
+池化層的超參數：
+
+    f：filter的大小；
+    s：stride大小；
+    最大池化或者平均池化；
+    p：padding，這裡要注意，幾乎很少使用。
+
+注意，池化層沒有需要學習的參數。
+
+
+構建深度卷積的模式：
+
+    隨著網絡的深入，提取的特徵圖片大小將會逐漸減小，但同時通道數量應隨之增加；
+    Conv——Pool——Conv——Pool——Fc——Fc——Fc——softmax。
