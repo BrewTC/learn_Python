@@ -1,1 +1,1 @@
-# AI_Python
+# Python初學特訓班
